@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Button))]
-public class LessonPage : MonoBehaviour
+public class LessonPage : OpenSceneButton
 {
 	[SerializeField] private bool _isFree;
 	[SerializeField] private TextMeshProUGUI _tmp;

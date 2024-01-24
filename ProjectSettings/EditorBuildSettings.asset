@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PhysPage.unity
     guid: 81672ae8e8416d54f90fa9ec5ce63294
+  - enabled: 1
+    path: Assets/Scenes/MentalPage.unity
+    guid: 5cf36de3668c2394c88c37e5ae82a8d4
+  - enabled: 1
+    path: Assets/Scenes/LessonTemplate.unity
+    guid: 5cfc34e3cb752fa47b3ee0956a486a30
+  - enabled: 1
+    path: Assets/Scenes/LessonsPage.unity
+    guid: ededd974dea840646a6fa05e2bee12a9
   m_configObjects: {}
