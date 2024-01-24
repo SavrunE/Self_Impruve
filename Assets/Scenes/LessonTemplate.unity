@@ -233,15 +233,15 @@ RectTransform:
   m_GameObject: {fileID: 367390440}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7.717963, y: 7.717963, z: 7.717963}
+  m_LocalScale: {x: 5.4748144, y: 5.4748144, z: 5.4748144}
   m_Children: []
   m_Father: {fileID: 1136761449}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5697402}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.5, y: -11}
-  m_SizeDelta: {x: -1107, y: -640}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -2, y: 426.5}
+  m_SizeDelta: {x: 190, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &367390442
 MonoBehaviour:
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 8400000, guid: 92b6a671f222b3a469efa1f8463026bb, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -308,7 +308,7 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 193773766}
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 92b6a671f222b3a469efa1f8463026bb, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -379,8 +379,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -385.5}
-  m_SizeDelta: {x: 1215, y: 771}
+  m_AnchoredPosition: {x: -2, y: -385.5}
+  m_SizeDelta: {x: 961, y: 771}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &612803895
 MonoBehaviour:
@@ -624,7 +624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6123589785891416045, guid: 86378d7c08a21644a9a6d9d598503ca1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6123589785891416047, guid: 86378d7c08a21644a9a6d9d598503ca1, type: 3}
       propertyPath: m_RootOrder
