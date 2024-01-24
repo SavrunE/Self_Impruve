@@ -503,6 +503,10 @@ PrefabInstance:
       propertyPath: _buttonText
       value: test
       objectReference: {fileID: 0}
+    - target: {fileID: 286087802268521931, guid: 3804617a853004c44a39f9601f8139e4, type: 3}
+      propertyPath: _openSceneName
+      value: LessonTemplate
+      objectReference: {fileID: 0}
     - target: {fileID: 1296620464443167344, guid: 3804617a853004c44a39f9601f8139e4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
