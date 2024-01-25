@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LessonTemplate.unity
     guid: 5cfc34e3cb752fa47b3ee0956a486a30
+  - enabled: 1
+    path: Assets/Scenes/LessonsPage.unity
+    guid: e8ed1dfab1ca98f4eb3cae0db25e53b5
   m_configObjects: {}

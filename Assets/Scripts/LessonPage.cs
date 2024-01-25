@@ -12,6 +12,7 @@ public class LessonPage : OpenSceneButton
 
 	private void Start()
 	{
+		base.Start();
 		if (_buttonText != "")
 		{
 			ChangeText(_buttonText);
