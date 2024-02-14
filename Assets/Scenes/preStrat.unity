@@ -152,11 +152,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d4493fa07136c42b54677d89b00ebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _physPages:
-  - _video: {fileID: 32900000, guid: d3ee844c03dbc8f4f923e0c19538c4c8, type: 3}
-    _audio: {fileID: 8300000, guid: 987da4f3f8108664f81668d7ac80f8f5, type: 3}
-    _text: 312
-    _image: {fileID: 0}
+  _physPageVariants:
+  - _physPages:
+    - _video: {fileID: 32900000, guid: d3ee844c03dbc8f4f923e0c19538c4c8, type: 3}
+      _audio: {fileID: 8300000, guid: 987da4f3f8108664f81668d7ac80f8f5, type: 3}
+      _text: 123
+      _backImages:
+      - {fileID: 21300000, guid: 2b61ae7fdbf46014ebe39f7f26c1971a, type: 3}
+  - _physPages:
+    - _video: {fileID: 32900000, guid: c53097746ffe7df4e886c5002ff3f116, type: 3}
+      _audio: {fileID: 8300000, guid: 0eba4459280d26647a141a235061a50b, type: 3}
+      _text: 321
+      _backImages:
+      - {fileID: 21300000, guid: 2b61ae7fdbf46014ebe39f7f26c1971a, type: 3}
 --- !u!4 &473096021
 Transform:
   m_ObjectHideFlags: 0

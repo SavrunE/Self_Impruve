@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,6 +7,8 @@ public class pSettings : Singleton<pSettings>
 	public string lastSceneName { get; private set; }
 
 	public static bool systemInitialized { get; private set; } = false;
+
+	public bool isSubscriber { get; private set; }
 
 	private void Awake()
 	{
