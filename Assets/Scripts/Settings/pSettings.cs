@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,15 +11,21 @@ public class pSettings : Singleton<pSettings>
 
 	public bool isSubscriber { get; private set; }
 
+	private const string _startSceneName = "Start";
+
 	private void Awake()
 	{
+		base.Awake();
 		currentSceneName = SceneManager.GetActiveScene().name;
 		lastSceneName = currentSceneName;
-		Debug.Log("currentSceneName " + currentSceneName);
-
 
 		systemInitialized = true;
-		Debug.Log("GameSystem::Start()");
+		Debug.Log("pSettings Awake()");
+	}
+
+	private void Start()
+	{
+		SceneManager.LoadScene(_startSceneName);
 	}
 
 	public void SetCurrentSceneName(string sceneName)
@@ -26,5 +33,17 @@ public class pSettings : Singleton<pSettings>
 		lastSceneName = currentSceneName;
 		currentSceneName = sceneName;
 		Debug.Log("currentSceneName " + currentSceneName);
+	}
+
+	public void MoveBackScene()
+	{
+		if (currentSceneName != _startSceneName)
+		{
+			SceneManager.LoadScene(lastSceneName);
+		}
+		else
+		{
+			Debug.Log("that is Start scene, can't move back");
+		}
 	}
 }

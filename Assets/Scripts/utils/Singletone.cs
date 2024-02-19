@@ -4,7 +4,7 @@ public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
     public static T instance;
 
-    private void Start()
+    protected void Awake()
     {
 		if (instance == null)
 		{ 

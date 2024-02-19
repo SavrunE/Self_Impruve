@@ -1,25 +1,14 @@
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Video;
 
 public class PhysPage : MonoBehaviour
 {
-	public PhysPageVariant[] _physPageVariants;
-}
+	private PhysPageSettings physPageSettings;
 
-
-[Serializable]
-public class PhysPageVariant
-{
-	public PhysPageSetup[] _physPages;
-}
-
-
-[Serializable]
-public class PhysPageSetup : Page
-{
-	public VideoClip _video;
-	[SerializeField] private AudioClip _audio;
-	[SerializeField] private string _text;
-	[SerializeField] private Sprite[] _backImages;
+	void Start()
+	{
+		physPageSettings = PagesSettings.instance.GetPhysPage();
+		Debug.Log(physPageSettings);
+	}
 }
