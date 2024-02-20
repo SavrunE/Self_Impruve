@@ -687,6 +687,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7b8198d6860c84881fad0a3ef81418, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ButtonExample: {fileID: 286087802268521931, guid: 3804617a853004c44a39f9601f8139e4, type: 3}
+  _canvas: {fileID: 546145552}
 --- !u!1001 &6123589784803028864
 PrefabInstance:
   m_ObjectHideFlags: 0

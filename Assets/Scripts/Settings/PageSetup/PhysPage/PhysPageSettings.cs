@@ -4,26 +4,27 @@ using UnityEngine.Video;
 
 public class PhysPageSettings : MonoBehaviour
 {
-	public PhysPageVariant[] _physPageVariants;
+	public PhysPageVariant[] physPageVariants;
 }
 
 
 [Serializable]
 public class PhysPageVariant
 {
-	public PhysPageSetup[] _physPages;
+	public PhysPageSetup physPages;
+	public ButtonSettings buttonSettings;
 
-	[HideInInspector] public int _indexOfCurrentScene;
+	[HideInInspector] public int indexOfCurrentScene;
 }
 
 
 [Serializable]
 public class PhysPageSetup : Page
 {
-	public VideoClip _video;
-	public Sprite[] _pictures;
+	public VideoClip[] video;
+	public Sprite[] pictures;
 
-	[SerializeField] private AudioClip _audio;
-	[SerializeField] private string _text;
+	[SerializeField] private AudioClip[] _audio;
+	[SerializeField] private string[] _text;
 	[SerializeField] private Sprite[] _backImages;
 }
